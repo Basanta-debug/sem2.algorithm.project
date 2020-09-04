@@ -1,0 +1,48 @@
+
+create table stdinfo
+(
+ID int primary key auto_increment,
+Name varchar(200),
+Address varchar(200),
+Contact varchar(100),
+Gender varchar(50),
+DOB varchar(100)
+);
+select * from stdinfo;
+use project;
+create table staffinfo
+(
+Staff_ID int primary key auto_increment,
+Name varchar(200),
+Address varchar(200),
+Contact varchar(100),
+Gender varchar(50),
+salary varchar(100)
+);
+use project;
+create table registration
+(
+username varchar(50),
+password varchar(100)
+);
+select * from registration;
+
+create table fee
+(
+Recipt varchar(100) primary key,
+Name varchar(100),
+Admission_no int,
+Date date,
+Branch varchar(100),
+Semester varchar(50),
+Total int,
+Paid int,
+Due int);
+SELECT * FROM fee;
+
+
+
+
+
+
+
